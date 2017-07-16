@@ -8,27 +8,31 @@ const int echoPort = 6;
 float r = 0;
 float g = 0;
 float b = 0;
+//1
+//1 int far_r = 5;
+//1 int far_g = 5;
+//1 int far_b = 5;
 
+//1 int near_r = 255;
+//1 int near_g = 50;
+//1 int near_b = 0;
+
+//2
 int far_r = 80;
 int far_g = 80;
-int far_b = 80;
-
-int near_r = 255;
+int far_b = 50;
+//
+int near_r = 230;
 int near_g = 50;
 int near_b = 0;
 
+float k = 0.07;
 
-//int far_r = 80;
-//int far_g = 80;
-//int far_b = 50;
-//
-//int near_r = 230;
-//int near_g = 50;
-//int near_b = 0;
+//1
+//1 int min_distance = 70;
+//1 int max_distance = 200;
 
-float k = 0.15;
-
-int min_distance = 50;
+int min_distance = 70;
 int max_distance = 200;
 
 void setup() {
